@@ -26,3 +26,8 @@ git pull origin main --allow-unrelated-histories
 git config pull.rebase false
 git pull origin main --allow-unrelated-histories
 git status
+git add .
+git commit -m "Clean up untracked files"
+git status
+git checkout main
+echo "Change from main" > message.txt
