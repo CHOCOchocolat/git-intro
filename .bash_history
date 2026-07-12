@@ -31,3 +31,6 @@ git commit -m "Clean up untracked files"
 git status
 git checkout main
 echo "Change from main" > message.txt
+git commit -am "Change message in main"
+git checkout feature-improvement
+echo "Change from feature branch" > message.txt
