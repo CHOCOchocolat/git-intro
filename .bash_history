@@ -34,3 +34,5 @@ echo "Change from main" > message.txt
 git commit -am "Change message in main"
 git checkout feature-improvement
 echo "Change from feature branch" > message.txt
+git checkout feature-improvement -f
+echo Change from feature branch > message.txt
